@@ -1,6 +1,6 @@
 # TensorFlow in Amazon SageMaker
 
-This workshop demonstrates various aspects of TensorFlow usage in Amazon SageMaker.  We'll examine how TensorFlow can be applied in Amazon SageMaker to a natural language processing (sentiment analysis) use case, a structured data use case, and a computer vision use case.  
+This workshop demonstrates various aspects of TensorFlow usage in Amazon SageMaker.  We'll examine how TensorFlow can be applied in Amazon SageMaker to a natural language processing use case, a structured data use case, and a computer vision use case.  
 
 Here are some of the key features of Amazon SageMaker relevant to TensorFlow demonstrated in this workshop:
 
@@ -62,23 +62,27 @@ To create a SageMaker notebook instance for this workshop, follow the instructio
 
 ## Natural Language Processing Use Case:  Sentiment Analysis  
 
-In this module we'll use TensorFlow within Amazon SageMaker with our own script defining our model.  Please go to the following link for this module:  [**Sentiment Analysis**](../modules/Sentiment_Analysis.md).  Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
+This module applies TensorFlow within Amazon SageMaker with our own script defining our model.  Please go to the following link for this module:  [**Sentiment Analysis**](../modules/Sentiment_Analysis.md).  Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
 
 When you're finished, return here to move on to the next module.  
 
 
 ## Structured Data Use Case:  Boston Housing
 
-In this module, we'll use Amazon SageMaker's built-in version of XGBoost to make predictions based on structured data related to the videogame industry.  Please go to the following link for this module:  [**Videogame Sales**](../modules/Video_Game_Sales.md).  Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
+In this module, we'll use Amazon SageMaker's prebuilt TensorFlow containers and Automatic Model Tuning to find the best model to predict prices based on the Boston Housing dataset.  Please go to the following link for this module:  _____.  Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
 
 When you're finished, return here to move on to the next module.  
 
 
 ## Computer Vision Use Case:  Image Classification
 
-This module uses Amazon SageMaker's built-in Image Classification algorithm.  Please go to the following link for this module:  [**Image Classification with Transfer Learning**](../modules/Image_Classification_Transfer_Learning.md).  Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
+This module applies TensorFlow within Amazon SageMaker to an image classification use case.  In particular, we'll see how to use Horovod for more efficient distributed training.  Please go to the following link for this module:  _______.  Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
 
-When you're finished, return here and go on to the Extra Credit module or Cleanup Guide.  
+When you're finished, return here and go on to the Cleanup Guide.  
 
+
+## Cleanup
+
+To avoid charges for endpoints and other resources you might not need after the workshop, please refer to the [**Cleanup Guide**](../CleanupGuide).
 
 

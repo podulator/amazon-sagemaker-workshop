@@ -69,7 +69,7 @@ When you're finished, return here to move on to the next module.
 
 ## Structured Data Use Case:  Boston Housing
 
-In this module, we'll use Amazon SageMaker's prebuilt TensorFlow containers and Automatic Model Tuning to find the best model to predict prices based on the Boston Housing dataset.  Please go to the following link for this module:  _____.  Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
+In this module, we'll use Amazon SageMaker's prebuilt TensorFlow containers and Automatic Model Tuning to find the best model to predict prices based on the Boston Housing dataset.  Please go to the following link for this module:  [**Boston Housing**](../modules/Boston_Housing.md).  Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
 
 When you're finished, return here to move on to the next module.  
 

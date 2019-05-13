@@ -97,7 +97,7 @@ To summarize, here are some of the key components and features of Amazon SageMak
 - This workshop uses image recognitiom and computer vision as a way to dive into transfer learning, using pre-made off the shelf algorithms, harnessing Elastic Inference to reduce costs, and enabling hyper paramater optimisation auto tuning to get better predictions.
 
 [**Tensor Flow on Amazon SageMaker**](Workshop3) 
-- This workshop focusses on the TensorFlow framework on Amazon SageMaker. We'll be looking at Natural Language Processing via Sentiment Analysis, as well as looking at bringing your own model to Amazon SageMaker, using the service in a modular way, batch transform jobs
+- This workshop focusses on the TensorFlow framework on Amazon SageMaker. We'll be looking at Natural Language Processing via Sentiment Analysis, as well as bringing your own model to Amazon SageMaker via a docker container, using the service in a modular way, and running batch transform jobs
 
 
 ## License & Contributing

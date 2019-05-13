@@ -71,9 +71,27 @@ Please run each code cell in order, and **only once**, to avoid repeated operati
         - Click the green **Clone or download** button from the upper right of the main page of the repository, then **Download ZIP**.
         - Use the downloaded notebooks in the notebooks directory rather than other versions you might find inside your notebook instance or elsewhere; the downloaded versions are modified for use in workshops.  
 
-- **Workshop 1 : Introduction to Amazon SageMaker**
-    - [**Introduction to Amazon SageMaker**](Workshop1) - This workshop demonstrates some of the key features of Amazon SageMaker.  
-    It does so via a set of examples for common prediction use cases, customer churn and product success, using the provided XgBoost algorithm. It will give an intro into working with and preparing data sets, as well as doing ad hoc visualisations in a Jupyter Notebook.
+**Workshop Overview**
+
+In these workshops, we'll work though several examples that demonstrate Amazon SageMaker's core components including notebook instances, hosted training, and hosted model endpoints.  Examples are divided into modules. The examples that involve training machine learning models show how Amazon SageMaker can be applied in three fundamental categories of machine learning:  working with structured data, computer vision, and natural language processing.  
+
+We'll also make use of some of Amazon SageMaker's built-in algorithms, specifically an AWS-optimized version of XGBoost and a deep learning-based image classification algorithm.  Built-in algorithms enable you to avoid spending time against algorithm/neural net design, provide conveniences such as reduced need for model tuning, and are meant to handle the scalability and reliability issues that arise when working with large datasets.  As a contrast, in one module we'll use a script defining our own deep learning model rather than a built-in algorithm.  Whether using your own models or built-in algorithms, all of Amazon SageMaker's features may be used in a similar way.  
+
+To summarize, here are some of the key components and features of Amazon SageMaker demonstrated in these workshops:
+
+- Using **Notebook Instances** for Exploratory Data Analysis and prototyping.
+- **Local Mode Training** to confirm your code is working before moving on to full scale model training.
+- **Hosted Training** for large scale model training.
+- **Built-in algorithms** designed for web scale and kickstarting data science projects.
+- **Script Mode**, which enables you to use your own model definitions and scripts similar to those outside SageMaker, with prebuilt machine learning containers.
+- **Hosted Endpoints** for near real-time predictions.
+- [**Elastic Inference**](https://aws.amazon.com/machine-learning/elastic-inference/) for reducing costs.
+- [**Batch Transform**](https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-batch.html) for asynchronous, large scale batch inference.
+- Bringing your own model as a container for Amazon SageMaker to host
+
+- **Workshop 1 : Predicting the future with Amazon SageMaker**
+    - [**Predicting the future with Amazon SageMaker**](Workshop1) - This workshop demonstrates some of the key features of Amazon SageMaker.  
+    It does so via a set of examples for common prediction use cases, customer churn and product success, using the provided XGBoost algorithm, optimised by AWS. It will give an introduction into working with and preparing data sets, as well as doing ad-hoc visualisations in a Jupyter Notebook.
 
 - **Workshop 2 : Image recognition with Amazon SageMaker**
     - [**Image recognition with Amazon SageMaker**](Workshop2) - This workshop uses image recognitiom and computer vision as a way to dive into transfer learning, using pre-made off the shelf algorithms, harnessing Elastic Inference to reduce costs, and enabling hyper paramater optimisation auto tuning to get better predictions.

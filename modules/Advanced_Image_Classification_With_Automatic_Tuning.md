@@ -1,4 +1,4 @@
-## Advanced Image Classification With Auto Tuning 
+## Advanced Image Classification With Automatic Tuning 
 
 
 For this module, we'll work with an image classification example notebook. In particular, we'll use Amazon SageMaker's built-in image classification algorithm, which is a supervised learning algorithm that takes an image as input and classifies it into one of multiple output categories. 

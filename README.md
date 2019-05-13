@@ -76,7 +76,7 @@ Please run each code cell in order, and **only once**, to avoid repeated operati
     It does so via a set of examples for common prediction use cases, customer churn and product success, using the provided XgBoost algorithm. It will give an intro into working with and preparing data sets, as well as doing ad hoc visualisations in a Jupyter Notebook.
 
 - **Workshop 2 : Image recognition with Amazon SageMaker**
-    - [**Image recognition with Amazon SageMaker**](Workshop2) - This workshop uses image recognitiom / computer vision as a way to dive into transfer learning, pre-made off the shelf algorithms, using Elastic Inference to reduce costs, and hyper paramater optimisation auto tuning to get better results.
+    - [**Image recognition with Amazon SageMaker**](Workshop2) - This workshop uses image recognitiom and computer vision as a way to dive into transfer learning, using pre-made off the shelf algorithms, harnessing Elastic Inference to reduce costs, and enabling hyper paramater optimisation auto tuning to get better predictions.
 
 - **Workshop 3 : Tensor Flow on Amazon SageMaker**
     - [**Tensor Flow on Amazon SageMaker**](Workshop3) -  This workshop focusses on the TensorFlow framework on Amazon SageMaker. We'll be looking at Natural Language Processing via Sentiment Analysis, as well as looking at bringing your own model to Amazon SageMaker, using the service in a modular way, batch transform jobs

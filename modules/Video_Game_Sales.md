@@ -20,4 +20,4 @@ To proceed, follow these steps:
 
 <p><strong>NOTE:  training the model for this example typically takes about 5 minutes or less.</strong></p>
 
-[**Return to the workshop**](../Introduction)
+[**Return to the workshop**](../Workshop1)

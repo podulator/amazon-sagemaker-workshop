@@ -17,4 +17,4 @@ With this approach, you simply bring your own Python training script, and SageMa
 
 <p><strong>NOTE:  training the model for this example typically takes about 5 minutes.</strong></p>
 
-[**Return to the workshop**](../Introduction)
+[**Return to the workshop**](../Workshop3)

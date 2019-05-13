@@ -1,7 +1,7 @@
 
 # Creating a Notebook Instance
 
-We'll start by creating an Amazon S3 bucket that will be used throughout the workshop.  We'll then create a SageMaker notebook instance, which we will use for the other workshop modules.
+We'll start by creating an Amazon S3 bucket that will be used throughout the workshops.  We'll then create a SageMaker notebook instance, which we will use for the other workshop modules.
 
 ## 1. Create a S3 Bucket
 
@@ -61,3 +61,4 @@ Use the console or AWS CLI to create an Amazon S3 bucket (see step-by-step instr
 2. Click **Open Jupyter**. You will now see the Jupyter homepage for your notebook instance.
 
 
+[**Return to the instructions**](../)

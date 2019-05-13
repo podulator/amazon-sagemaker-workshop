@@ -1,40 +1,34 @@
-# Introduction to Amazon SageMaker
-
-
+# Predicting the future with Amazon SageMaker
 
 ## Modules
 
-This workshop is divided into multiple modules, and you can do them in any order.
+This workshop is divided into 2 modules, and you can do them in any order.
 
 You should have already downloaded the repository code locally, and set up an Amazon Sagemaker instance. If you haven't, please see the [**Workshop prerequisites**](../)
 
+- Structured Data Use Case #1:  Videogame Sales 
 
-- Structured Data Use Case:  Videogame Sales 
+- Structured Data Use Case #2:  Predicting Customer Churn
 
-- Computer Vision Use Case:  Image Classification  
+## Structured Data Use Case #1:  Videogame Sales
 
-- Natural Language Processing Use Case:  Sentiment Analysis
+In this module, we'll use Amazon SageMaker's built-in version of XGBoost to make predictions based on structured data related to the videogame industry. 
 
-## Structured Data Use Case:  Videogame Sales
+Please go to the following link for this module:  [**Videogame Sales**](../modules/Video_Game_Sales.md). 
 
-In this module, we'll use Amazon SageMaker's built-in version of XGBoost to make predictions based on structured data related to the videogame industry.  Please go to the following link for this module:  [**Videogame Sales**](../modules/Video_Game_Sales.md).  Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
-
-When you're finished, return here to move on to the next module.  
-
-
-## Computer Vision Use Case:  Image Classification
-
-This module uses Amazon SageMaker's built-in Image Classification algorithm.  Please go to the following link for this module:  [**Image Classification with Transfer Learning**](../modules/Image_Classification_Transfer_Learning.md).  Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
+Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
 
 When you're finished, return here to move on to the next module.  
 
+## Structured Data Use Case #2:  Predicting Customer Churn
 
-## Natural Language Processing Use Case:  Sentiment Analysis  
+This module also uses Amazon SageMaker's built-in version of the XGBoost algorithm, and in it we will be predicting a customers likelyhood of churning, based on data from the telecoms industry.
 
-In contrast to the previous modules, which used some of Amazon SageMaker's built-in algorithms, in this module we'll use a deep learning framework within Amazon SageMaker with our own script defining our model.  Please go to the following link for this module:  [**Sentiment Analysis**](../modules/Sentiment_Analysis.md).  Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
+Please go to the following link for this module:  [**Predicting Customer Churn**](../modules/Predicting_Customer_Churn.md). 
+
+Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
 
 When you're finished, return here and go on to the Cleanup Guide.  
-
 
 ## Cleanup
 

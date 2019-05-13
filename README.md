@@ -72,10 +72,15 @@ Please run each code cell in order, and **only once**, to avoid repeated operati
         - Use the downloaded notebooks in the notebooks directory rather than other versions you might find inside your notebook instance or elsewhere; the downloaded versions are modified for use in workshops.  
 
 - **Workshop 1 : Introduction to Amazon SageMaker**
-    - [**Introduction to Amazon SageMaker**](Introduction) - This workshop demonstrates some of the key features of Amazon SageMaker.  It does so via a set of straightforward examples for common use cases including: working with structured data, natural language processing (sentiment analysis), and computer vision (image classification).  Content includes how to do exploratory data analysis in Amazon SageMaker notebook instances, run local and hosted training jobs, and get predictions using hosted model endpoints and batch transform jobs.
+    - [**Introduction to Amazon SageMaker**](Workshop1) - This workshop demonstrates some of the key features of Amazon SageMaker.  
+    It does so via a set of straightforward examples for common use cases including: working with structured data, natural language processing (sentiment analysis), and computer vision (image classification).  Content includes how to do exploratory data analysis in Amazon SageMaker notebook instances, run local and hosted training jobs, and get predictions using hosted model endpoints and batch transform jobs.
 
-- **Workshop 2 : Deep Dive into Amazon SageMaker**
-    - [**Deep Dive into Amazon SageMaker**](DeepDive) - This workshop does other stuff.
+- **Workshop 2 : Image recognition with Amazon SageMaker**
+    - [**Image recognition with Amazon SageMaker**](Workshop2) - This workshop uses image recognitiom as a way to dive into pre made algorithms, hyper paramater optimisation and using Elastic Inference to reduce costs.
+
+- **Workshop 3 : Tensor Flow on Amazon SageMaker**
+    - [**Tensor Flow on Amazon SageMaker**](Workshop3) -  This workshop focusses on the TensorFlow framework on Amazon SageMaker. We'll be looking at Natural Language Processing with Sentiment Analysis, as well as looking at bringing your own model to Amazon SageMaker, and using the service in a modular way.
+
 
 ## License & Contributing
 

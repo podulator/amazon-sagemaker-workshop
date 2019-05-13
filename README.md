@@ -99,6 +99,9 @@ To summarize, here are some of the key components and features of Amazon SageMak
 [**Tensor Flow on Amazon SageMaker**](Workshop3) 
 - This workshop focusses on the TensorFlow framework on Amazon SageMaker. We'll be looking at Natural Language Processing via Sentiment Analysis, as well as bringing your own model to Amazon SageMaker via a docker container, using the service in a modular way, and running batch transform jobs
 
+## Don't forget...
+
+To avoid charges for endpoints and other resources you might not need after the workshop, please refer to the [**Cleanup Guide**](CleanupGuide).
 
 ## License & Contributing
 

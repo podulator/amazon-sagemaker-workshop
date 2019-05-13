@@ -13,7 +13,7 @@ To proceed, follow these steps:
 
 3. Click the folder to enter it.
 
-4. To upload the notebook for this module, click the **Upload** button on the right. Then in the file selection popup, select the file 'videogame-sales.ipynb' from the notebooks subdirectory in the folder on your computer where you downloaded this GitHub repository. **DO NOT USE THE DIFFERENT NOTEBOOK** 'videogame-sales-cli-console' (it uses the CLI and console with instructions in a different workshop module).  Click the blue **Upload** button that appears to the right of the notebook's file name.
+4. To upload the notebook for this module, click the **Upload** button on the right. Then in the file selection popup, select the file 'videogame-sales.ipynb' from the notebooks subdirectory in the folder on your computer where you downloaded this GitHub repository.  Click the blue **Upload** button that appears to the right of the notebook's file name.
 
 5. You are now ready to begin the notebook:  click the notebook's file name to open it, then follow the directions in the notebook.
 

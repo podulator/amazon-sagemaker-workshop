@@ -32,7 +32,7 @@ Use the console or AWS CLI to create an Amazon S3 bucket (see step-by-step instr
 
 ![Services in Console](./images/console-services.png)
 
-2. In the upper-right corner of the AWS Management Console, confirm you are in the desired AWS region. Select N. Virginia, Oregon, Ohio, or Ireland.
+2. In the upper-right corner of the AWS Management Console, confirm you are in the desired AWS region. Select N. Virginia, Oregon, Ohio, Frankfurt or Ireland.
 
 3. To create a new notebook instance, click the **Notebook instances** link on the left side, and click the **Create notebook instance** button in the upper right corner of the browser window.
 
@@ -42,9 +42,15 @@ Use the console or AWS CLI to create an Amazon S3 bucket (see step-by-step instr
 
 ![Notebook Settings](./images/notebook-settings.png)
 
-5. In the **Permissions and encryption** section, choose **Create a new role** in the **IAM role** drop down menu.  In the resulting pop-up modal, select **Specific S3 buckets** under **S3 Buckets you specify – optional**. In the text field, paste the name of the S3 bucket you created above, AND the following bucket name separated from the first by a comma:  `gdelt-open-data`.  The combined field entry should look similar to ```smworkshop-john-smith, gdelt-open-data```. Click **Create role**.
+5. In the **Permissions and encryption** section, choose **Create a new role** in the **IAM role** drop down menu.  
 
-![Create IAM role](./images/role-popup.png)
+In the resulting pop-up modal, select **None** under **S3 Buckets you specify – optional**. 
+We will use the default bucketthat SageMaker creates for us, which is allowed by the permissions list with the green ticks next to them, 
+basically, anything with 'sagemaker' in the name or as a tag.
+
+Click **Create role**.
+
+![Create IAM role](./images/sm_role.png)
 
 6. You will be taken back to the Create Notebook instance page.  Now you should see a message saying "Success! You created an IAM role."
 

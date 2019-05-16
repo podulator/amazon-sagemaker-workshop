@@ -52,11 +52,22 @@ Click **Create role**.
 
 ![Create IAM role](./images/sm_role.png)
 
-6. You will be taken back to the Create Notebook instance page.  Now you should see a message saying "Success! You created an IAM role."
+6. Expand out the optional **Git repositories** section
+-  Select 'Clone a public Git repository to this notebook instance only'
+-  For the Git Repository URL, enter this repositories address
+    - Open the home page of this GitHub repository in another tab
+    - Click the green **Clone or download** button from the upper right of the main page of the repository
+    - Copy the https url, `https://github.com/podulator/amazon-sagemaker-workshop.git`
+    - Paste it into the Git Repository URL field
+- Now your instance will launch with the latest version of these workshops already on it
+
+![Git Repositories](./images/repositories.png)
+
+7. You will be taken back to the Create Notebook instance page.  Now you should see a message saying "Success! You created an IAM role."
 
 ![Create Notebook Instance](./images/permissions-settings.png)
 
-7. Click **Create notebook instance** at the bottom.
+8. Click **Create notebook instance** at the bottom.
 
 ### 3. Accessing the Notebook Instance
 

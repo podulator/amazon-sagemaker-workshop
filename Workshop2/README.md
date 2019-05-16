@@ -5,8 +5,6 @@
 
 This workshop is divided into 2 modules, and you can do them in any order.
 
-You should have already downloaded the repository code locally, and set up an Amazon Sagemaker instance. If you haven't, please see the [**Workshop prerequisites**](../)
-
 - Computer Vision Use Case #1:  Image Classification with Transfer Learning
 
 - Computer Vision Use Case #2:  Advanced Image Classification With Automatic Tuning
@@ -17,8 +15,6 @@ This module uses Amazon SageMaker's built-in Image Classification algorithm.
 
 Please go to the following link for this module:  [**Image Classification with Transfer Learning**](../modules/Image_Classification_Transfer_Learning.md).  
 
-Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
-
 When you're finished, return here to move on to the next module.  
 
 ## Computer Vision Use Case #2:  Advanced Image Classification With Automatic Tuning
@@ -26,8 +22,6 @@ When you're finished, return here to move on to the next module.
 This module uses Amazon SageMaker's built-in Image Classification algorithm, but adds auto tuning and Elastic Inference to it for better, cost optimised, results.
 
 Please go to the following link for this module:  [**Advanced Image Classification With Automatic Tuning**](../modules/Advanced_Image_Classification_With_Automatic_Tuning.md).  
-
-Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
 
 When you're finished, return here and go on to the Cleanup Guide.  
 

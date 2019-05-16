@@ -4,8 +4,6 @@
 
 This workshop is divided into 2 modules, and you can do them in any order.
 
-You should have already downloaded the repository code locally, and set up an Amazon Sagemaker instance. If you haven't, please see the [**Workshop prerequisites**](../)
-
 - Structured Data Use Case #1:  Videogame Sales 
 
 - Structured Data Use Case #2:  Predicting Customer Churn
@@ -16,8 +14,6 @@ In this module, we'll use Amazon SageMaker's built-in version of XGBoost to make
 
 Please go to the following link for this module:  [**Videogame Sales**](../modules/Video_Game_Sales.md). 
 
-Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
-
 When you're finished, return here to move on to the next module.  
 
 ## Structured Data Use Case #2:  Predicting Customer Churn
@@ -25,8 +21,6 @@ When you're finished, return here to move on to the next module.
 This module also uses Amazon SageMaker's built-in version of the XGBoost algorithm, and in it we will be predicting a customers likelyhood of churning, based on data from the telecoms industry.
 
 Please go to the following link for this module:  [**Predicting Customer Churn**](../modules/Predicting_Customer_Churn.md). 
-
-Be sure to use the **downloaded** version of the applicable Jupyter notebook from this workshop repository.  
 
 When you're finished, return here and go on to the Cleanup Guide.  
 

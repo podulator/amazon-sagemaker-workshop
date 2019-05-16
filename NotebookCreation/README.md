@@ -59,7 +59,7 @@ Click **Create role**.
     - Click the green **Clone or download** button from the upper right of the main page of the repository
     - Copy the https url, `https://github.com/podulator/amazon-sagemaker-workshop.git`
     - Paste it into the Git Repository URL field
-- Now your instance will launch with the latest version of these workshops already on it
+- Now your instance will launch with the latest version of these workshops already on it, in a folder called `amazon-sagemaker-workshop`
 
 ![Git Repositories](./images/repositories.png)
 

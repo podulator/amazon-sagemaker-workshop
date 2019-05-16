@@ -7,16 +7,13 @@ It uses a convolutional neural network (ResNet)for the training, but this time w
 
 Follow these steps:
 
-1. Be sure you have downloaded this GitHub repository as specified in **Preliminaries** before you start.  Next, in your notebook instance, click the **New** button on the right and select **Folder**.  
+1. Go to your Jupyter notebooks homepage 
 
-2. Click the checkbox next to your new folder, click the **Rename** button above in the menu bar, and give the folder a name such as 'advanced-image-classification'.
+2. Click into the folder called `amazon-sagemaker-workshop`
 
-3. Click the folder to enter it.
+3. Click into the folder called `notebooks`
 
-4. To upload the notebook, click the **Upload** button on the right. Then in the file selection popup, select the file 'advance-image-classification.ipynb' from the notebooks subdirectory in the folder on your computer where you downloaded this GitHub repository. Click the blue **Upload** button that appears to the right of the notebook's file name.
-
-5. You are now ready to begin the notebook:  click the notebook's file name to open it, then follow the directions in the notebook.
-
+4. Click on the notebook called `advanced-image-classification.ipynb`, then follow the directions in the notebook.
 
 <p><strong>NOTE:  training the model for this example typically takes about 30 minutes.</strong> However, keep in mind that this is due to a soft limit on the number of machine instances that an AWS account starts with, for your own protection. If you desired, you could raise this limit and launch 10 instances at the same time, and the total billable time would be the same.</p>
 

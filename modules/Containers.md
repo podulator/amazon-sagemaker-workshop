@@ -4,7 +4,7 @@ In this module, we'll create our own deep learning container for Amazon SageMake
 
 1. Be sure you have downloaded this GitHub repository as specified in **Preliminaries** before you start.  Next, in your notebook instance, click the **New** button on the right and select **Folder**.
 
-2. Click the checkbox next to your new folder, click the **Rename** button above in the menu bar, and give the folder a name such as 'sentiment-analysis'.
+2. Click the checkbox next to your new folder, click the **Rename** button above in the menu bar, and give the folder a name such as 'containers'.
 
 3. Click the folder to enter it.
 

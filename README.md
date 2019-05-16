@@ -64,12 +64,7 @@ Please run each code cell in order, and **only once**, to avoid repeated operati
     - **Create a notebook instance**
         - SageMaker provides hosted Jupyter notebooks that require no setup, so you can begin processing your training data sets immediately. With a few clicks in the SageMaker console, you can create a fully managed notebook instance, pre-loaded with useful libraries for machine learning. You need only add your data.
 
-        - To create a SageMaker notebook instance for this workshop, follow the instructions at [**Creating a Notebook Instance**](./NotebookCreation), then return here to continue with the next step.
-
-    - **Download this repository to your computer**
-        - Return to the home page of this GitHub repository or open it in another tab;
-        - Click the green **Clone or download** button from the upper right of the main page of the repository, then **Download ZIP**.
-        - Use the downloaded notebooks in the notebooks directory rather than other versions you might find inside your notebook instance or elsewhere; the downloaded versions are modified for use in workshops.  
+        - To create a SageMaker notebook instance for this workshop, follow the instructions at [**Creating a Notebook Instance**](./NotebookCreation), then return here to continue with the workshop.
 
 **Workshop Overview**
 

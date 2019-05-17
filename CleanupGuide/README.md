@@ -33,4 +33,4 @@ To avoid charges for resources you no longer need when you're done with this wor
     - delete the folder `ml-immersion-day`
     - delete any folders beginning with `tf-keras-sentiment-*`
 
-[**Return to the instructions**](../)
+[**Return to the instructions**](../README.md)

@@ -32,3 +32,5 @@ To avoid charges for resources you no longer need when you're done with this wor
     - enter the S3 bucket, which will be named something like `sagemaker-{aws-region}-{aws-account-number}`
     - delete the folder `ml-immersion-day`
     - delete any folders beginning with `tf-keras-sentiment-*`
+
+[**Return to the instructions**](../)

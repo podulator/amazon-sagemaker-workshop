@@ -28,4 +28,4 @@ When you're finished, return here and go on to the Cleanup Guide.
 
 To avoid charges for endpoints and other resources you might not need after the workshop, please refer to the [**Cleanup Guide**](../CleanupGuide).
 
-[**Return to the instructions**](../)
+[**Return to the instructions**](../README.md)

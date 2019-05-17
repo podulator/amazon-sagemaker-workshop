@@ -45,7 +45,7 @@ Use the console or AWS CLI to create an Amazon S3 bucket (see step-by-step instr
 5. In the **Permissions and encryption** section, choose **Create a new role** in the **IAM role** drop down menu.  
 
 In the resulting pop-up modal, select **None** under **S3 Buckets you specify – optional**. 
-We will use the default bucketthat SageMaker creates for us, which is allowed by the permissions list with the green ticks next to them, 
+We will use the default bucket that SageMaker creates for us, which is allowed by the permissions list with the green ticks next to them, 
 basically, anything with 'sagemaker' in the name or as a tag.
 
 Click **Create role**.
@@ -78,4 +78,4 @@ Click **Create role**.
 2. Click **Open Jupyter**. You will now see the Jupyter homepage for your notebook instance.
 
 
-[**Return to the instructions**](../)
+[**Return to the instructions**](../README.md)

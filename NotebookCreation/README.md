@@ -32,7 +32,7 @@ Use the console or AWS CLI to create an Amazon S3 bucket (see step-by-step instr
 
 ![Services in Console](./images/console-services.png)
 
-2. In the upper-right corner of the AWS Management Console, confirm you are in the desired AWS region. Select N. Virginia, Oregon, Ohio, Frankfurt or Ireland.
+2. In the upper-right corner of the AWS Management Console, confirm you are in the desired AWS region. Select Oregon.
 
 3. To create a new notebook instance, click the **Notebook instances** link on the left side, and click the **Create notebook instance** button in the upper right corner of the browser window.
 

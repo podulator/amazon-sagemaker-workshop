@@ -100,9 +100,7 @@ To avoid charges for endpoints and other resources you might not need after the 
 
 ## And lastly...
 
-Please take the 2 minutes to fill in this survey so we can improve the sessions we bring to you
-
-http://bit.ly/30iXx85
+Please take the 2 minutes to fill in [this survey](http://bit.ly/30iXx85) so we can improve the sessions we bring to you
 
 Thank you all!
 

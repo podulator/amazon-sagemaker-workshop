@@ -98,6 +98,14 @@ To summarize, here are some of the key components and features of Amazon SageMak
 
 To avoid charges for endpoints and other resources you might not need after the workshop, please refer to the [**Cleanup Guide**](CleanupGuide).
 
+## And lastly...
+
+Please take the 2 minutes to fill in this survey so we can improve the sessions we bring to you
+
+http://bit.ly/30iXx85
+
+Thank you all!
+
 ## License & Contributing
 
 The contents of this workshop are licensed under the [Apache 2.0 License](./LICENSE). 

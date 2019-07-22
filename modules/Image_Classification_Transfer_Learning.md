@@ -17,4 +17,4 @@ Follow these steps:
 
 <p><strong>NOTE:  training the model for this example typically takes about 10 minutes.</strong> However, keep in mind that this is relatively short because transfer learning is used rather than training from scratch, which could take many hours.</p>
 
-[**Return to the workshop**](../Workshop2)
+[**Return to the workshop**](../Workshop2/README.md)

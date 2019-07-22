@@ -21,7 +21,7 @@ You'll start by creating an Amazon SageMaker notebook instance with the requisit
 
 **Use Your Own Account**: The code and instructions in this workshop assume only one participant is using a given AWS account at a time. If you try sharing an account with another person, you'll run into naming conflicts for certain resources. You can work around these by appending a unique suffix to the resources that fail to create due to conflicts, but the instructions do not provide details on the changes required to make this work. Use a personal account or create a new AWS account for this workshop rather than using an organization’s account to ensure you have full access to the necessary services and to ensure you do not leave behind any resources from the workshop.
 
-**Costs**: Some, but NOT all, of the resources you will launch as part of this workshop are eligible for the AWS free tier if your account is less than 12 months old. See the [AWS Free Tier page](https://aws.amazon.com/free/) for more details. An example of a resource that is **not** covered by the free tier is the Amazon SageMaker notebook instance type used in some workshops. To avoid charges for endpoints and other resources you might not need after you've finished a workshop, please refer to the [**Cleanup Guide**](./CleanupGuide). 
+**Costs**: Some, but NOT all, of the resources you will launch as part of this workshop are eligible for the AWS free tier if your account is less than 12 months old. See the [AWS Free Tier page](https://aws.amazon.com/free/) for more details. An example of a resource that is **not** covered by the free tier is the Amazon SageMaker notebook instance type used in some workshops. To avoid charges for endpoints and other resources you might not need after you've finished a workshop, please refer to the [**Cleanup Guide**](./CleanupGuide/README.md). 
 
 
 ### AWS Region
@@ -64,7 +64,7 @@ Please run each code cell in order, and **only once**, to avoid repeated operati
     - **Create a notebook instance**
         - SageMaker provides hosted Jupyter notebooks that require no setup, so you can begin processing your training data sets immediately. With a few clicks in the SageMaker console, you can create a fully managed notebook instance, pre-loaded with useful libraries for machine learning. You need only add your data.
 
-        - To create a SageMaker notebook instance for this workshop, follow the instructions at [**Creating a Notebook Instance**](./NotebookCreation), then return here to continue with the workshop.
+        - To create a SageMaker notebook instance for this workshop, follow the instructions at [**Creating a Notebook Instance**](./NotebookCreation/README.md), then return here to continue with the workshop.
 
 **Workshop Overview**
 
@@ -84,19 +84,19 @@ To summarize, here are some of the key components and features of Amazon SageMak
 - [**Batch Transform**](https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-batch.html) for asynchronous, large scale batch inference.
 - Bringing your own model as a container for Amazon SageMaker to host
 
-[**Predicting the future with Amazon SageMaker**](Workshop1) 
+[**Predicting the future with Amazon SageMaker**](Workshop1/README.md) 
 - This workshop demonstrates some of the key features of Amazon SageMaker.  
     It does so via a set of examples for common prediction use cases, customer churn and product success, using the provided XGBoost algorithm, optimised by AWS. It will give an introduction into working with and preparing data sets, as well as doing ad-hoc visualisations in a Jupyter Notebook.
 
-[**Image recognition with Amazon SageMaker**](Workshop2)
+[**Image recognition with Amazon SageMaker**](Workshop2/README.md)
 - This workshop uses image recognitiom and computer vision as a way to dive into transfer learning, using pre-made off the shelf algorithms, harnessing Elastic Inference to reduce costs, and enabling hyper paramater optimisation auto tuning to get better predictions.
 
-[**Tensor Flow on Amazon SageMaker**](Workshop3) 
+[**Tensor Flow on Amazon SageMaker**](Workshop3/README.md) 
 - This workshop focusses on the TensorFlow framework on Amazon SageMaker. We'll be looking at Natural Language Processing via Sentiment Analysis, as well as bringing your own model to Amazon SageMaker via a docker container, using the service in a modular way, and running batch transform jobs
 
 ## Don't forget...
 
-To avoid charges for endpoints and other resources you might not need after the workshop, please refer to the [**Cleanup Guide**](CleanupGuide).
+To avoid charges for endpoints and other resources you might not need after the workshop, please refer to the [**Cleanup Guide**](CleanupGuide/README.md).
 
 ## And lastly...
 

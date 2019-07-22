@@ -16,4 +16,4 @@ Follow these steps:
 
 <p><strong>NOTE:  training the model for this example typically takes about 5 minutes.</strong></p>
 
-[**Return to the workshop**](../Workshop3)
+[**Return to the workshop**](../Workshop3/README.md)

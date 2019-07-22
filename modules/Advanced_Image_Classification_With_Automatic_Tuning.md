@@ -17,4 +17,4 @@ Follow these steps:
 
 <p><strong>NOTE:  training the model for this example typically takes about 30 minutes.</strong> However, keep in mind that this is due to a soft limit on the number of machine instances that an AWS account starts with, for your own protection. If you desired, you could raise this limit and launch 10 instances at the same time, and the total billable time would be the same.</p>
 
-[**Return to the workshop**](../Workshop2)
+[**Return to the workshop**](../Workshop2/README.md)

@@ -26,6 +26,6 @@ When you're finished, return here and go on to the Cleanup Guide.
 
 ## Cleanup
 
-To avoid charges for endpoints and other resources you might not need after the workshop, please refer to the [**Cleanup Guide**](../CleanupGuide).
+To avoid charges for endpoints and other resources you might not need after the workshop, please refer to the [**Cleanup Guide**](../CleanupGuide/README.md).
 
 [**Return to the instructions**](../README.md)

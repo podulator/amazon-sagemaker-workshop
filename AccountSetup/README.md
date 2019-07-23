@@ -146,7 +146,10 @@ pip install --upgrade jupyterlab
 pip install --upgrade jupyterlab-git
 ```
 ![Start Notebook](./images/LC-2.png)
-1. Click to the **Create notebook** tab, and enter
+1. Click to the **Create notebook** tab
+1. All repos are added under the path `/home/ec2-user/SageMaker`
+1. Add the following code
+
 ```
 #!/bin/bash
 

@@ -1,38 +1,14 @@
 
 # Creating a Notebook Instance
 
-We'll start by creating an Amazon S3 bucket that will be used throughout the workshops.  We'll then create a SageMaker notebook instance, which we will use for the other workshop modules.
+## Configure the Notebook Instance
 
-## 1. Create a S3 Bucket
-
-SageMaker typically uses S3 as storage for data and model artifacts.  In this step you'll create a S3 bucket for this purpose. To begin, sign into the AWS Management Console, https://console.aws.amazon.com/.
-
-### High-Level Instructions
-
-Use the console or AWS CLI to create an Amazon S3 bucket (see step-by-step instructions below if you are unfamiliar with this process). Keep in mind that your bucket's name must be globally unique across all regions and customers. We recommend using a name like `smworkshop-firstname-lastname`. If you get an error that your bucket name already exists, try adding additional numbers or characters until you find an unused name.
-
-<details>
-<summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
-
-1. In the AWS Management Console, choose **Services** then select **S3** under Storage.
-
-1. Choose **+Create Bucket**
-
-1. Provide a globally unique name for your bucket such as `smworkshop-firstname-lastname`.
-
-1. Select the Region you've chosen to use for this workshop from the dropdown.
-
-1. Choose **Create** in the lower left of the dialog without selecting a bucket to copy settings from.
-
-</p></details>
-
-## 2. Launching the Notebook Instance
-
-1. Make sure you are on the AWS Management Console home page.  In the **Find Services** search box, type **SageMaker**.  The search result list will populate with Amazon SageMaker, which you should now click.  This will bring you to the Amazon SageMaker console homepage.
+1. Make sure you are on the AWS Management Console home page.  
+In the **Find Services** search box, type **SageMaker**.  The search result list will populate with Amazon SageMaker, which you should now click.  This will bring you to the Amazon SageMaker console homepage.
 
 ![Services in Console](./images/console-services.png)
 
-2. In the upper-right corner of the AWS Management Console, confirm you are in the desired AWS region. Select Oregon.
+2. In the upper-right corner of the AWS Management Console, confirm you are in the desired AWS region.
 
 3. To create a new notebook instance, click the **Notebook instances** link on the left side, and click the **Create notebook instance** button in the upper right corner of the browser window.
 
@@ -42,40 +18,73 @@ Use the console or AWS CLI to create an Amazon S3 bucket (see step-by-step instr
 
 ![Notebook Settings](./images/notebook-settings.png)
 
-5. In the **Permissions and encryption** section, choose **Create a new role** in the **IAM role** drop down menu.  
+5. Expand the Advanced configuration section, and select the **SageMakerLCCDemo** Lifecycle configuration created earlier.
 
-In the resulting pop-up modal, select **None** under **S3 Buckets you specify – optional**. 
-We will use the default bucket that SageMaker creates for us, which is allowed by the permissions list with the green ticks next to them, 
-basically, anything with 'sagemaker' in the name or as a tag.
+![Add Lifecycle Configuration](./images/Create-1.png)
 
-Click **Create role**.
+6. In the **Permissions and encryption** section
+    - select **Enter a custom IAM Role ARN**
+    - Paste in the Role ARN that was created earlier, in the Setting up your account section
 
-![Create IAM role](./images/sm_role.png)
+![Add Role ARN](./images/Create-2.png)
 
-6. Expand out the optional **Git repositories** section
--  Select 'Clone a public Git repository to this notebook instance only'
--  For the Git Repository URL, enter this repositories address
-    - Open the home page of this GitHub repository in another tab
-    - Click the green **Clone or download** button from the upper right of the main page of the repository
-    - Copy the https url, `https://github.com/podulator/amazon-sagemaker-workshop.git`
-    - Paste it into the Git Repository URL field
-- Now your instance will launch with the latest version of these workshops already on it, in a folder called `amazon-sagemaker-workshop`
+7. Expand out the optional **Git repositories** section. Select the previously created SageMakerCollaboration CodeCommit repository for the Default repository
 
-![Git Repositories](./images/repositories.png)
+![Add Repository](./images/Create-3.png)
 
-7. You will be taken back to the Create Notebook instance page.  Now you should see a message saying "Success! You created an IAM role."
+8. Click **Create notebook instance**. You will be taken to the list of instances, showing your newly created one in the **Pending** state.
 
-![Create Notebook Instance](./images/permissions-settings.png)
+![Pending](./images/Create-4.png)
 
-8. Click **Create notebook instance** at the bottom.
+9. Wait for your Instance to be fully created. The status will say **InService**.
 
-### 3. Accessing the Notebook Instance
+![InService](./images/Create-5.png)
 
-1. Wait for the server status to change to **InService**. This will take several minutes, possibly up to ten but likely much less.
+10. Click on your Notebook Instances' name, and you will be taken to its settings page
 
-![Access Notebook](./images/open-notebook.png)
+![Settings](./images/Create-6.png)
 
-2. Click **Open Jupyter**. You will now see the Jupyter homepage for your notebook instance.
+11. Click on the **View Logs** Link
+
+12. The launch logs will open in a new tab. Have a look at the logs for the LifeCycle hooks
+
+![Logs](./images/Create-7.png)
+
+13. Close the Logs tab in your browser
+
+14. Click the Open Jupyter Lab button, and let the interface open in a new tab. You will see that it opens to your CodeCommit default repository
+
+![JupyterLabs](./images/Create-8.png)
+
+15. Click on the README.md file in the directory browser. Edit the file, add your name or similar, and save the file (ctrl + s) 
+
+![Edit File](./images/Create-9.png)
+
+16. Click the Git icon in the left hand pane. You will see that the README.md file is marked as changed.
+
+![Changed](./images/Create-10.png)
+
+17. Right click the README.md file, and click **Satge**
+
+![Stage](./images/Create-11.png)
+
+18. The file is now ready to be comitted. Enter a commit message and save it.
+
+![Commit](./images/Create-12.png)
+
+19. Finally, push the file using the Push icon. (Cloud and up arrow)
+
+![Push](./images/Create-13.png)
+
+20. Clost the JupyterLab tab, so you are back at the Amazon SageMaker interface.
+
+![Launch Notebook](./images/Create-14.png)
+
+21. Click the **Open Jupyter** button to launch the labs. Click to the root folder so you can see both repositories.
+
+![Home Folder](./images/Create-15.png)
+
+22. Click into the amazon-sagemaker-workshop directory, and you are ready to start the labs
 
 
 [**Return to the instructions**](../README.md)

@@ -61,6 +61,11 @@ Please run each code cell in order, and **only once**, to avoid repeated operati
 
 - **Preliminaries**
 
+    - **Setup your account**
+        - For this customised workshop we will be using various AWS services such as CodeCommit for collaboration. Because of this we need to configure IAM roles and create repositories etc. These steps need to be done **once per account**, with the details shared amongst everyone sharing the account using whatever group communication tool is practical. 
+
+        - To configure your account for this workshop, follow the instructions at [**Setup your account**](./AccountSetup/README.md), then return here to continue with **creating a notebook instance****. Only the nominated person needs to carry this out, but everyone should read them.
+
     - **Create a notebook instance**
         - SageMaker provides hosted Jupyter notebooks that require no setup, so you can begin processing your training data sets immediately. With a few clicks in the SageMaker console, you can create a fully managed notebook instance, pre-loaded with useful libraries for machine learning. You need only add your data.
 

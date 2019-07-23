@@ -159,6 +159,8 @@ cd /home/ec2-user/SageMaker
 git clone https://github.com/podulator/amazon-sagemaker-workshop.git
 cd amazon-sagemaker-workshop
 git checkout dh
+cd ../
+sudo chmod -R a+w ./amazon-sagemaker-workshop/
 ```
 ![Create Notebook](./images/LC-3.png)
 

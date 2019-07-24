@@ -5,58 +5,7 @@
 
 Because we're using some advanced functionality for todays workshop, we need to configure a couple of steps manually
 
-## 1. Create an IAM Role
-
-SageMaker typically creates an IAM (Identity and Access Management) Role for us, using the managed **AmazonSageMakerFullAccess** Policy. 
-However, because we are integrating with AWS CodeCommitn for collaboration, we need to add some extra permissions to this role.
-To begin, sign into the AWS Management Console, https://console.aws.amazon.com/.
-
-### High-Level Instructions
-
-Use the console or AWS CLI to create an IAM Role with the following policies attached to it
-    - AmazonSageMakerFullAccess
-    - AWSCodeCommitPowerUser
-
-(see step-by-step instructions below if you are unfamiliar with this process).
-
-<details>
-<summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
-
-1. In the AWS Management Console, choose **Services** then select **IAM** under Storage.
-
-1. Click on Roles on the left hand menu
-
-1. Leave AWS Service selected, select SageMaker and click Next.
-![Type of Role](./images/SM-Role-1.png)
-
-1. You will see the AmazonSageMakerFullAccess policy has been selected for the role. Click Next
-![Full Access](./images/SM-Role-2.png)
-
-1. Leave the Tags empty, and click Next
-![Tags](./images/SM-Role-3.png)
-
-1. Give the role the name `SageMakerCodeCommit` and click Next
-![Role Name](./images/SM-Role-4.png)
-
-1. You will see that the role has been created for you. Click on its name in the creation message.
-![Role created](./images/SM-Role-5.png)
-
-1. You will be shown the Role Summary page. Click the **Attach Policies** button
-![Attach Policies](./images/SM-Role-6.png)
-
-1. In the filter box type `codecommit` and it will filter the list of available policies. 
-
-1. Select AwsCodeCommitPowerUser and click **Attach Policy**
-![Policy Attached](./images/SM-Role-7.png)
-
-1. You will be taken back to the summary page, with a confirmation that the policy has been attached.
-![Role Summary](./images/SM-Role-8.png)
-
-1. Make a note of the **Role ARN**, and send it to anyone sharing the account with you, along with the Role Name
-
-</p></details>
-
-## 2. Create the AWS CodeCommit repository
+## 1. Create the AWS CodeCommit repository
 
 In this step we are going to create an AWS CodeCommit repository for collaboration with the [**JubyterLab-git extension**](https://github.com/jupyterlab/jupyterlab-git) that has recently been added to Amazon SageMaker, and the make it accessible for all Amazon SageMaker users within the account.
 
@@ -109,7 +58,7 @@ Use the console or AWS CLI to create an AWS CodeCommit repository called `SageMa
 
 </p></details>
 
-## 3. Create the Amazon SageMaker LifeCycle Configuration
+## 2. Create the Amazon SageMaker LifeCycle Configuration
 
 In this step we are going to create an Amazon SageMaker LifeCycle Configuration, custom functionality that can be shared across all instances of Amazon SageMaker.
 There are 2 lifecycle events you can hook into, Instance Creation, and Instance Launch. 

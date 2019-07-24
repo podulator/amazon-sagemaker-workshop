@@ -94,7 +94,7 @@ To summarize, here are some of the key components and features of Amazon SageMak
     It does so via a set of examples for common prediction use cases, customer churn and product success, using the provided XGBoost algorithm, optimised by AWS. It will give an introduction into working with and preparing data sets, as well as doing ad-hoc visualisations in a Jupyter Notebook.
 
 [**Image recognition with Amazon SageMaker**](Workshop2/README.md)
-- This workshop uses image recognitiom and computer vision as a way to dive into transfer learning, using pre-made off the shelf algorithms, harnessing Elastic Inference to reduce costs, and enabling hyper paramater optimisation auto tuning to get better predictions.
+- This workshop uses image recognitiom and computer vision as a way to dive into transfer learning, using pre-made off the shelf algorithms, harnessing Elastic Inference to reduce costs, and enabling hyper paramater optimisation auto tuning to get better predictions. We also look at A/B deployments.
 
 [**Tensor Flow on Amazon SageMaker**](Workshop3/README.md) 
 - This workshop focusses on the TensorFlow framework on Amazon SageMaker. We'll be looking at Natural Language Processing via Sentiment Analysis, as well as bringing your own model to Amazon SageMaker via a docker container, using the service in a modular way, and running batch transform jobs
@@ -105,13 +105,10 @@ To avoid charges for endpoints and other resources you might not need after the 
 
 ## And lastly...
 
-Please take the 2 minutes to fill in [this survey](http://bit.ly/30iXx85) so we can improve the sessions we bring to you
-
-Thank you all!
+Thank you Delivery Hero!
 
 ## License & Contributing
 
 The contents of this workshop are licensed under the [Apache 2.0 License](./LICENSE). 
 If you are interested in contributing to this project, please see the [Contributing Guidelines](./contributing/CONTRIBUTING.md).  In connection with contributing, also review the [Code of Conduct](./contributing/CODE_OF_CONDUCT.md).
-
 

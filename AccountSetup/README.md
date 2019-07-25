@@ -42,7 +42,7 @@ Use the console or AWS CLI to create an AWS CodeCommit repository called `SageMa
 1. You will see your newly committed file rendered for you
 ![File added](./images/CC-6.png) 
 
-1. Create another file called `.gitignore` in the same way, with the contents `.ipynb_checkpoints`. This will prevent you from comitting your own checkpoints and clashing with other collaborators.
+1. Create another file called `.gitignore` in the same way, with the contents `.ipynb_checkpoints` and commit it. This will prevent you from comitting your own checkpoints and clashing with other collaborators.
 
 1. In the Services menu, type SageMaker and browse to the Amazon SageMaker console.
 
